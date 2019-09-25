@@ -1,3 +1,5 @@
+package BasicConcepts;
+
 import java.util.Scanner;
 
 public class GettingUserInput {

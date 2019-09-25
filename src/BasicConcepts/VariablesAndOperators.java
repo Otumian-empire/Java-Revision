@@ -1,3 +1,5 @@
+package BasicConcepts;
+
 public class VariablesAndOperators {
     public static void main(String[] args) {
         /* Variables */
