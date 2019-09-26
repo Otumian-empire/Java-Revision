@@ -13,5 +13,10 @@ public class MainClass {
         JavaInheritance javaInheritance;
         javaInheritance = new JavaInheritance("Samuel Doe", 3214);
         javaInheritance.displayDetails();
+
+        // polymorphism in java
+        JavaPolymorphism javaPolymorphism;
+        javaPolymorphism = new JavaPolymorphism("Sandra Omari", 8765);
+        javaPolymorphism.displayDetails();
     }
 }
