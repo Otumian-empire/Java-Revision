@@ -33,11 +33,30 @@ public class MainClass {
         System.out.println(
                 "My name is " + aClass.getName() + " and i am " + aClass.dateOfBirth(1987));
 
-         */
-
         // implementing an interface
         ImplementingAnInterface anInterface = new ImplementingAnInterface();
         anInterface.sayHello();
         anInterface.sayHi();
+
+        // casting
+        System.out.println((double) 3/5);
+
+         */
+
+        // Anonymous classes
+        JavaPolymorphism javaPolymorphism;
+        javaPolymorphism = new JavaPolymorphism("Sandra Omani", 8765) {
+            @Override
+            public void displayDetails() {
+                System.out.println("This is an anonymous class");
+                System.out.println("My name is " + this.getName());
+                System.out.println("and my number is " + this.getNumber());
+            }
+        };
+
+        javaPolymorphism.displayDetails();
+
+
+
     }
 }
