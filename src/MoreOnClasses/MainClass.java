@@ -2,7 +2,7 @@ package MoreOnClasses;
 
 public class MainClass {
     public static void main(String[] args) {
-        // encapsulation in Java - Data hiding
+        /*// encapsulation in Java - Data hiding
         JavaEncapsulation javaEncapsulation;
         javaEncapsulation = new JavaEncapsulation("John Doe", 12345);
         String name = javaEncapsulation.getName();
@@ -24,7 +24,13 @@ public class MainClass {
         methodOverLoading = new JavaMethodOverLoading();
         System.out.println("The max int is " + methodOverLoading.max(1,3));
         System.out.println("The max double is " + methodOverLoading.max(1.0, 3.0));
-        System.out.println("The longest word here is " + methodOverLoading.max("hello world", "I am a programmer"));
+        System.out.println("The longest word here is " + methodOverLoading
+                .max("hello world", "I am a programmer"));*/
 
+        // abstraction of classes and methods
+        ExtendingJavaAbstractClass aClass = new ExtendingJavaAbstractClass();
+        aClass.setName("John Doe");
+        System.out.println(
+                "My name is " + aClass.getName() + " and i am " + aClass.dateOfBirth(1987));
     }
 }
