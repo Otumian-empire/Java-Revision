@@ -18,5 +18,13 @@ public class MainClass {
         JavaPolymorphism javaPolymorphism;
         javaPolymorphism = new JavaPolymorphism("Sandra Omari", 8765);
         javaPolymorphism.displayDetails();
+
+        // method overloading
+        JavaMethodOverLoading methodOverLoading;
+        methodOverLoading = new JavaMethodOverLoading();
+        System.out.println("The max int is " + methodOverLoading.max(1,3));
+        System.out.println("The max double is " + methodOverLoading.max(1.0, 3.0));
+        System.out.println("The longest word here is " + methodOverLoading.max("hello world", "I am a programmer"));
+
     }
 }
