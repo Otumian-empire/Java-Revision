@@ -25,12 +25,19 @@ public class MainClass {
         System.out.println("The max int is " + methodOverLoading.max(1,3));
         System.out.println("The max double is " + methodOverLoading.max(1.0, 3.0));
         System.out.println("The longest word here is " + methodOverLoading
-                .max("hello world", "I am a programmer"));*/
+                .max("hello world", "I am a programmer"));
 
         // abstraction of classes and methods
         ExtendingJavaAbstractClass aClass = new ExtendingJavaAbstractClass();
         aClass.setName("John Doe");
         System.out.println(
                 "My name is " + aClass.getName() + " and i am " + aClass.dateOfBirth(1987));
+
+         */
+
+        // implementing an interface
+        ImplementingAnInterface anInterface = new ImplementingAnInterface();
+        anInterface.sayHello();
+        anInterface.sayHi();
     }
 }
