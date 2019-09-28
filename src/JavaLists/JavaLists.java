@@ -1,13 +1,14 @@
 package JavaLists;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 
 public class JavaLists {
 
     public static void main(String[] args) {
         // defining an arrayList
         // An arrayList stores Objects - meaning you can't pass a primitive type to it
-        ArrayList<String> names = new ArrayList<>();
+        /*ArrayList<String> names = new ArrayList<>();
         ArrayList<Integer> numbers = new ArrayList<Integer>(5);
         ArrayList<Double> scores = new ArrayList<Double>(6);
 
@@ -21,7 +22,7 @@ public class JavaLists {
 
         System.out.println(names);
 
-        /* get, contains, size, clear, indexOf, isEmpty*/
+        *//* get, contains, size, clear, indexOf, isEmpty*//*
 
         String name0 = names.get(0);
         String name1 = names.get(1);
@@ -32,7 +33,17 @@ public class JavaLists {
             System.out.println("The index of John is " + indexOfJohn);
         } else {
             System.out.println("No object, John, in " + names);
-        }
+        }*/
+
+        LinkedList<String> linkedList = new LinkedList<>();
+        linkedList.add("Jennifer");
+        linkedList.add("Hamilton");
+
+        System.out.println(linkedList);
+
+        linkedList.remove("Hamilton");
+        System.out.println(linkedList);
+
 
     }
 }
