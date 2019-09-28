@@ -41,7 +41,6 @@ public class MainClass {
         // casting
         System.out.println((double) 3/5);
 
-         */
 
         // Anonymous classes
         JavaPolymorphism javaPolymorphism;
@@ -55,6 +54,25 @@ public class MainClass {
         };
 
         javaPolymorphism.displayDetails();
+
+         */
+        // Exception handling
+        try {
+            int x = 12, y = 0;
+            System.out.println(Math.floorDiv(x, y));
+        } catch (Exception e) {
+            System.out.println("Can not divide by Zero");
+        }
+
+        try {
+            int[] list = new int[2];
+            System.out.println(list[2]);
+        } catch (Exception e) {
+            System.out.println("There is an error");
+        }
+
+        // this line was meant to crash actually
+        System.out.println(1/0);
 
 
 
